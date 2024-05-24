@@ -1,0 +1,58 @@
+.root-div-home {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin: auto;
+  inset: 0;
+}
+.text-center {
+  font-size: 30px;
+  text-align: center;
+}
+#outlined-basic {
+  width: 700px;
+  height: 50px;
+  border: 2px solid #ced4da;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+}
+button {
+  width: 735px;
+  margin-top: 2vh;
+  padding: 15px;
+  height: 50px;
+  border: none;
+  background-color: rgb(87, 132, 255);
+  color: #fff;
+}
+
+.sun{
+  background-color: yellow  ;
+  border-radius: 50%;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  margin-left: -15vh;
+  margin-top: -15vh;
+  box-shadow: 10px 10px 100px 20px rgb(255, 255, 25);
+}
+
+@media only screen and (max-width: 900px) {
+  .text-center {
+    font-size: 17px;
+  }
+  #outlined-basic {
+    width: 310px;
+    padding: 4px;
+  }
+  .btn-submit {
+    width: 310px;
+    padding: 5px;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+  }
+}
